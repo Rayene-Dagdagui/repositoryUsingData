@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { UserItemComponent } from './user-item/user-item.component';
+import { HelloWorldComponent } from './hello-world/hello-world.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, UserItemComponent], //importazione di User-Item
+  imports: [RouterOutlet, UserItemComponent, HelloWorldComponent], //importazione di User-Item
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
